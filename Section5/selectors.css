@@ -43,12 +43,12 @@ input {
 }
 
 /*Make all the <p>'s that are nested inside of divs 25px font(font-size: 25px)*/
-div {
+div p {
     font-size: 25px;
 }
 
 /*Make only inputs with type 'text' have a gray background*/
-input, text {
+input[type=text] {
     background-color: tan;
 }
 
@@ -73,7 +73,7 @@ div:nth-of-type(3) em {
 /*You may need to research some other selectors and properties*/
 
 /*Make all "checked" checkboxes have a left margin of 50px(margin-left: 50px)*/
-input[type=checkbox] {
+input:checked {
     margin-left: 50px;
 }
 
@@ -83,7 +83,7 @@ label {
 }
 
 /*Make the first letter of the element with id 'special' green and 100px font size(font-size: 100)*/
-#special::first-letter {
+#special:first-letter {
     color: green;
     font-size: 100px;
 }
