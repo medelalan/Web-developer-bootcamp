@@ -1,7 +1,7 @@
 /*font-family*/
 
 p {
-	font-family: Arial;
+	font-family: 'Times New Roman', Times, serif;
 }
 
 h1 {
@@ -29,7 +29,7 @@ span {
 /*font-weight*/
 
 p{
-	font-weight: normal;
+	font-weight: bold;
 }
 
 /*line-height*/
@@ -40,7 +40,7 @@ p {
 
 /*text-align*/
 
-h1 {
+ h1 {
 	text-align: right;
 }
 
